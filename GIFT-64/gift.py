@@ -278,7 +278,8 @@ class Gift:
             # 如果找到可行解（状态为 3），说明找到了平衡比特位
             if m.Status == 3:
                 balanced_flag = True
-                balanced_bits[i] = "b"  # 设置当前比特位为 "b"（表示该比特位平衡）
+                # 设置当前比特位为 "b"（表示该比特位平衡）
+                balanced_bits[63 - i] = "b"     #xi = x[63-i]  倒序阅读，所以第一个变量 x0 在数组中为最后一个元素 x[63]
                 balance_count += 1
             # 移除临时约束
             m.remove(temporary_constraints)
@@ -308,7 +309,7 @@ class Gift:
         # 更新 input_array，根据 constant_bits 中的索引将元素修改为 'c'
 
         for index in self.constant_bits:
-            input_array[63 - index] = 'c'
+            input_array[63 - index] = 'c'    #xi = x[63-i]  倒序阅读，所以第一个变量 x0 在数组中为最后一个元素 x[63]
         # 输入
 
         input_array = ["".join(input_array[4 * i: 4 * i + 4])

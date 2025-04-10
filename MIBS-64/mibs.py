@@ -665,7 +665,7 @@ class Mibs:
         input_array = ['a'] * 64
         # 更新 input_array，根据 constant_bits 中的索引将元素修改为 'c'
         for index in self.constant_bits:
-            input_array[63 - index] = 'c'
+            input_array[63 - index] = 'c'  #xi = x[63-i]  倒序阅读，所以第一个变量 x0 在数组中为最后一个元素 x[63]
 
         # 将 input_array 划分为 16 组，每组4个比特，形成一个新的输入表示
         input_array = ["".join(input_array[4 * i: 4 * i + 4]) for i in range(16)]
