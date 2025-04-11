@@ -17,4 +17,3 @@ if __name__ == "__main__":  # 判断脚本是否作为主程序运行
     Mibs.set_constant_bits()
 
 # set_zero 为未知 ？
-#

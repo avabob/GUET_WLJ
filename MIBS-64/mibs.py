@@ -1,5 +1,3 @@
-# H. Hadipour
-# 1397/04/18
 """
 变量定义与表示:  x_轮号_字节号_比特号
 
@@ -631,7 +629,7 @@ class Mibs:
                         temp = u.getAttr('x')  # 获取该变量的值
                         if temp == 1:  # 如果该变量值为1
                             set_zero.append(u.getAttr('VarName'))  # 将该变量名加入 set_zero
-                            balanced_bits[i] = "?"  # 设置该比特位为 "?"，表示未平衡
+                            balanced_bits[i] = "?"  # 设置对应比特位为 "?"，表示未平衡    #xi = x[63-i]  倒序阅读，所以第一个变量 x0 在数组中为最后一个元素 x[63]
                             balance_count -= 1  # 减少平衡比特计数
                             m.addConstr(u == 0)  # 为该变量添加约束，强制其值为0
                             m.update()  # 更新模型

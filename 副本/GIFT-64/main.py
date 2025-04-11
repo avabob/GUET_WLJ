@@ -1,14 +1,4 @@
-# Algorithm 3 presented in paper "Applyint MILP Method to Searching Integral 
-# Distinguishers based on Division Property for 6 Lightweight Block Ciphers"
-# Regarding to the paper, please refer to https://eprint.iacr.org/2016/857
-# For more information, feedback or questions, pleast contact at xiangzejun@iie.ac.cn
-
-# Implemented by Xiang Zejun, State Key Laboratory of Information Security, 
-# Institute Of Information Engineering, CAS
-
 from gift import Gift
-
-
 
 
 if __name__ == "__main__":  # 判断脚本是否作为主程序运行
@@ -17,6 +7,7 @@ if __name__ == "__main__":  # 判断脚本是否作为主程序运行
         print("轮数必须大于零！")  # 提示用户输入大于0的回合数
         rounds = int(input("请重新输入目标轮数: "))  # 重新输入回合数
     Gift = Gift(rounds)  # 创建一个Gift对象，初始化时传入目标回合数
+
 
     brute_force_flag = input("请选择：（1）自动搜索  （0）手动输入 \n")  # 询问用户是否选择暴力破解（1）或探测特定情况（0）
     while (brute_force_flag not in ['0', '1']):  # 如果输入既不是0也不是1，要求重新输入
