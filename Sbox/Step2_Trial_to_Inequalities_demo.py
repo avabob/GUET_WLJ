@@ -1,8 +1,9 @@
 from sage.all import *
 import re
 
+cipher_name = input("算法名称: ")
 # 读取文件内容
-with open('./demo/GIFT-64_DivisionTrails.txt', 'r') as f:
+with open(f'./{cipher_name}_DivisionTrails.txt', 'r') as f:
     lines = f.readlines()
 
 matrix_data = []

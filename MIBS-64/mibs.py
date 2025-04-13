@@ -39,9 +39,9 @@ class Mibs:
         self.shuffle = [2, 0, 3, 6, 7, 4, 5, 1]  # 定义一个置换表，用于混淆操作
 
         # 设置 MILP 模型的文件名，模型文件存放路径为 "model" 文件夹
-        self.model_file_name = "./model/MIBS_%d.lp" % self.round  # 模型文件名包含轮数
+        self.model_file_name = "./model/MIBS_round%d.lp" % self.round  # 模型文件名包含轮数
         # 设置结果文件的文件名，存放路径为 "result" 文件夹
-        self.result_file_name = "./result/result_round_%d.txt" % self.round  # 结果文件名包含轮数
+        self.result_file_name = "./result/MIBS_round%d_result.txt" % self.round  # 结果文件名包含轮数
 
         # 确保 "model" 文件夹存在，不存在则创建
         os.makedirs("./model", exist_ok=True)  # 直接使用 "./model" 来确保该文件夹存在
@@ -78,12 +78,12 @@ class Mibs:
 
         参数:
             n (int): 数组的长度
-            total_elements (int): 总元素个数，默认为 64
+            total_elements (int): 总元素个数(分组长度)，默认为 64
         返回:
             list: 所有可能的连续数组的列表，按降序排列
         """
         if n > total_elements:
-            raise ValueError(f"数组长度不能大于总元素个数（{total_elements}）")  # 检查输入是否有效
+            raise ValueError(f"数组长度不能大于分组长度（{total_elements}）")  # 检查输入是否有效
 
         # 生成所有可能的连续数组
         arrays = [list(range(i, i + n)) for i in range(0, total_elements - n + 1)]
@@ -101,13 +101,16 @@ class Mibs:
             for element in temp:  # 遍历列表中的每个元素
                 constant_bits.append(int(element) - 1)  # 将元素转换为整数并添加到常量位列表中，作为常数项的索引
                 # 因为数组下标从零开始，所以要减1
-            self.constant_bits = constant_bits  # 存储常量位
+            if (len(constant_bits) > self.blocksize):
+                raise ValueError(f"数组长度不能大于分组长度（{self.blocksize}）")  # 检查输入是否有效
+            for index in constant_bits:
+                if index > self.blocksize:
+                    raise ValueError(f"常数比特位置不能大于分组长度（{self.blocksize}）")  # 检查输入是否有效self.constant_bits = constant_bits  # 存储常量位
+            self.constant_bits = constant_bits
             self.make_model()  # 调用make_model方法生成模型
             self.solve_model()  # 调用solve_model方法求解模型
 
         else:  # 如果选择了暴力破解（1）
-            number_of_total_states = 64  # 总状态数为64
-            elements = list(range(0, number_of_total_states))  # 生成1到64的数字列表
             # 用户输入数组的长度
             n = int(input("请输入数组的长度："))
             # 生成并打印连续的数组
@@ -678,6 +681,7 @@ class Mibs:
         print("输出为:" + " ".join(output_state))
 
         # 打印平衡比特数量
+        fileobj.write(f"\n平衡比特数量：{balance_count}")
         print(f"平衡比特数量：{balance_count}")
 
         # 记录结束时间并计算算法运行时间

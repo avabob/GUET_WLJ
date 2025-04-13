@@ -1,6 +1,5 @@
 from gift import Gift
 
-
 if __name__ == "__main__":  # 判断脚本是否作为主程序运行
     rounds = int(input("请输入目标轮数: "))  # 用户输入目标回合数，并将其转换为整数
     while not (rounds > 0):  # 如果输入的回合数小于等于0，则提示重新输入
