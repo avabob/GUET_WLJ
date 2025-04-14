@@ -6,7 +6,7 @@
 
 # GIFT-64算法流程
 
-![Alt Text](image/GIFT流程.png)
+![Alt Text](image/GIFT.png)
 
 
 
@@ -18,7 +18,7 @@
 
 # MIBS算法流程
 
-![Alt Text](image/MIBS流程.png)
+![Alt Text](image/MIBS.png)
 
 
 
@@ -26,4 +26,4 @@
 
 # SPECK算法流程
 
-![Alt Text](image/SPECK流程.png)
+![Alt Text](image/SPECK.png)
