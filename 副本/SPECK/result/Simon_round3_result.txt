@@ -1,0 +1,240 @@
+轮数为: 3
+常量比特位: 30,31,32 
+存在积分区分器
+输入为: ccca aaaa aaaa aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 29,30,31 
+存在积分区分器
+输入为: accc aaaa aaaa aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 28,29,30 
+存在积分区分器
+输入为: aacc caaa aaaa aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 27,28,29 
+存在积分区分器
+输入为: aaac ccaa aaaa aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 26,27,28 
+存在积分区分器
+输入为: aaaa ccca aaaa aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 25,26,27 
+存在积分区分器
+输入为: aaaa accc aaaa aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 24,25,26 
+存在积分区分器
+输入为: aaaa aacc caaa aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 23,24,25 
+存在积分区分器
+输入为: aaaa aaac ccaa aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 22,23,24 
+存在积分区分器
+输入为: aaaa aaaa ccca aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 21,22,23 
+存在积分区分器
+输入为: aaaa aaaa accc aaaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 20,21,22 
+存在积分区分器
+输入为: aaaa aaaa aacc caaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 19,20,21 
+存在积分区分器
+输入为: aaaa aaaa aaac ccaa aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 18,19,20 
+存在积分区分器
+输入为: aaaa aaaa aaaa ccca aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 17,18,19 
+存在积分区分器
+输入为: aaaa aaaa aaaa accc aaaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 16,17,18 
+存在积分区分器
+输入为: aaaa aaaa aaaa aacc caaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 15,16,17 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaac ccaa aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 14,15,16 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa ccca aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 13,14,15 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa accc aaaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 12,13,14 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aacc caaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.03
+
+轮数为: 3
+常量比特位: 11,12,13 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaac ccaa aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 10,11,12 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa ccca aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 9,10,11 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa accc aaaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 8,9,10 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa aacc caaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 7,8,9 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa aaac ccaa aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 6,7,8 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa aaaa ccca aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 5,6,7 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa aaaa accc aaaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.01
+
+轮数为: 3
+常量比特位: 4,5,6 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa aaaa aacc caaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 3,4,5 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa aaaa aaac ccaa        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 2,3,4 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa aaaa aaaa ccca        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
+轮数为: 3
+常量比特位: 1,2,3 
+存在积分区分器
+输入为: aaaa aaaa aaaa aaaa aaaa aaaa aaaa accc        
+输出为: bbbb bbbb bbbb bbbb bbbb bbbb bbbb bbbb        
+平衡比特数量：32
+用时为 = 0.02
+
