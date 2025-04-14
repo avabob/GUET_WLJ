@@ -1,6 +1,12 @@
+# 请运行main.py
+
+
+
+
+
 # GIFT-64算法流程
 
-![image-20250413010647094](C:\Users\wdnmd\AppData\Roaming\Typora\typora-user-images\image-20250413010647094.png)
+![Alt Text](image/GIFT流程.png)
 
 
 
@@ -12,7 +18,7 @@
 
 # MIBS算法流程
 
-![image-20250413010807082](C:\Users\wdnmd\AppData\Roaming\Typora\typora-user-images\image-20250413010807082.png)
+![Alt Text](image/MIBS流程.png)
 
 
 
@@ -20,4 +26,4 @@
 
 # SPECK算法流程
 
-![image-20250413154724859](C:\Users\wdnmd\AppData\Roaming\Typora\typora-user-images\image-20250413154724859.png)
+![Alt Text](image/SPECK流程.png)
